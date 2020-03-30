@@ -1,0 +1,177 @@
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Vestinos S.A.dll.config
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Vestinos S.A.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Vestinos S.A.pdb
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csc.exe
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csc.exe.config
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csc.rsp
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csi.exe
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csi.exe.config
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\csi.rsp
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.AppContext.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Console.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.IO.Compression.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Net.Http.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.ValueTuple.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\vbc.exe
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\vbc.exe.config
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\vbc.rsp
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Antlr3.Runtime.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Newtonsoft.Json.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\System.Web.Optimization.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\WebGrease.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\System.Web.Optimization.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Newtonsoft.Json.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Antlr3.Runtime.pdb
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\obj\Debug\Vestinos S.A.csprojAssemblyReference.cache
+C:\Users\Oinos\source\repos\Vestinos S.A\obj\Debug\Vestinos S.A.csproj.CoreCompileInputs.cache
+C:\Users\Oinos\source\repos\Vestinos S.A\obj\Debug\Vestinos S.A.csproj.CopyComplete
+C:\Users\Oinos\source\repos\Vestinos S.A\obj\Debug\Vestinos S.A.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\obj\Debug\Vestinos S.A.pdb
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\BouncyCastle.Crypto.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Google.Protobuf.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\MySql.Data.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Renci.SshNet.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Ubiety.Dns.Core.dll
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Google.Protobuf.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\MySql.Data.xml
+C:\Users\Oinos\source\repos\Vestinos S.A\bin\Renci.SshNet.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Vestinos S.A.dll.config
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Vestinos S.A.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Vestinos S.A.pdb
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csc.exe
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csc.exe.config
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csc.rsp
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csi.exe
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csi.exe.config
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\csi.rsp
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.AppContext.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Collections.Immutable.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Console.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Globalization.Calendars.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.IO.Compression.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.IO.FileSystem.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Net.Http.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Net.Sockets.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.ValueTuple.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Xml.XPath.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\vbc.exe
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\vbc.exe.config
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\vbc.rsp
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\VBCSCompiler.exe
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\roslyn\VBCSCompiler.exe.config
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Antlr3.Runtime.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\AspNet.ScriptManager.jQuery.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\BouncyCastle.Crypto.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Google.Protobuf.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.Web.Infrastructure.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Newtonsoft.Json.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Renci.SshNet.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Web.Optimization.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\WebGrease.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Google.Protobuf.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Renci.SshNet.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Web.Optimization.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Newtonsoft.Json.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Antlr3.Runtime.pdb
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\es\System.Web.Optimization.resources.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\obj\Debug\Vestinos S.A.csprojAssemblyReference.cache
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\obj\Debug\Vestinos S.A.csproj.CoreCompileInputs.cache
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\obj\Debug\Vestinos S.A.csproj.CopyComplete
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\obj\Debug\Vestinos S.A.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\obj\Debug\Vestinos S.A.pdb
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\MySqlConnector.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Buffers.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Memory.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Numerics.Vectors.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Threading.Tasks.Extensions.dll
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\MySqlConnector.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Buffers.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Memory.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Numerics.Vectors.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desarrollo de Software\Visual Studio\Vestinos S.A\bin\System.Threading.Tasks.Extensions.xml
