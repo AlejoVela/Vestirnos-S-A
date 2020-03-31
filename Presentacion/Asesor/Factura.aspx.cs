@@ -14,33 +14,12 @@ namespace Vestinos_S.A.Presentacion.Asesor
         protected void Page_Load(object sender, EventArgs e)
         {
             c = new Cliente();
-            bool registrar = false;
             Producto p = new Producto();
             List<Producto> regi = p.consultarTodos();
-            int i = 0;
-
-            foreach (Cliente cliente in c.consultarTodos())
-            {
-
-            }
-
-
-            if (registrar)
-            {
-
-
-
-
-
-                //insertar producto
-
-
-            }
         }
 
         public void generarClientes()
         {
-            string h = "";
 
 
             foreach (Cliente cliente in c.consultarTodos())
@@ -53,6 +32,7 @@ namespace Vestinos_S.A.Presentacion.Asesor
 
         public void listaProductos()
         {
+
             Producto p = new Producto();
 
             foreach (Producto producto in p.consultarTodos())
@@ -63,10 +43,16 @@ namespace Vestinos_S.A.Presentacion.Asesor
                 Response.Write("<td>" + producto.precio + "</td>");
                 Response.Write("<td>" + producto.cantprend + "</td>");
                 //Response.Write("");
-                Response.Write("<td><input type="+"number"+" value="+0+" min = "+0+" max = '" + (producto.precio - 3) + "'></td>");
+                Response.Write("<td><input id='"+ producto.idprend + "' type=" +"number"+" value="+0+" min = "+0+" max = '" + (producto.precio - 3) + "'></td>");
                 //Response.Write("");
                 Response.Write("</tr>");
+
             }
+        }
+
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

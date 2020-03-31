@@ -6,23 +6,13 @@
     <!-- aqui comienza el codigo del proyecto aun con el php incluido-->
 	
 	<div class="container">
-		<form method="post" action="#">
+
 		<div class="row">
 			<div class="col-12">
 				<div class="card">
 					<div class="card-header bg-info text-white">Factura</div>
 					<div class="card-body">
-						<!--
-						<?php if (isset($_POST['Registrar'])) { ?>
-						<div class="alert alert-<?php echo ($error==0) ? "success" : "danger" ?> alert-dismissible fade show"
-							role="alert">
-							<?php echo ($error==0) ? "Registro exitoso" : " No tiene productos su Venta"; ?>
-							<button type="button" class="close" data-dismiss="alert"
-								aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<?php } ?> -->
+
 						<div class="form-group">
 							<div class="form-group">
 								<label>Clientes</label>
@@ -45,12 +35,12 @@
 								<% listaProductos(); %>
 							</tbody>
 						</table>
-						<button name="Registrar" class="btn btn-primary">Registrar</button>
-					</form>
+						<asp:button runat="server" name="Registrar" class="btn btn-primary" Text="Registrar" OnClick="Unnamed1_Click"></asp:button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+					
     <!-- aqui termina -->
 </asp:Content>
