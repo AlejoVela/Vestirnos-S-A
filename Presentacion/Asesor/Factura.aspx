@@ -4,53 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <!-- aqui comienza el codigo del proyecto aun con el php incluido-->
-	<?php
-		include 'presentacion/Asesor/menuAcesor.php';
-		$Empleado = new Empleado($_SESSION['id']);
-		$Empleado -> consultar();
-		$Producto = new Producto();
-		$regi=$Producto -> consultarTodos();
-		$i=0;
-
-		$error=0;
-
-		if(isset($_POST['Registrar'])){
-
-			$v=0;
-			foreach ($regi as $a){
-				$i++;
-				if ($_POST[$i."p"]>0) {
-						$v++;
-				}
-			}
-			if($v>0){
-			$Venta =new Venta("",$_POST['clientes'],$_SESSION['id']);
-			$Venta ->insertar();
-			$Venta->ultimo();
-			$Venta_producto= new Venta_producto("",$Venta ->getIdventa(),"");
-			/*$Detalle= new DetalleFactura("","","",$Facturas->getId());*/
-			$i=0;
-			foreach ($regi as $a){
-				$i++;
-				if ($_POST[$i."p"]>0) {
-						$Venta_producto->setcantcompra($_POST[$i."p"]);
-						$Venta_producto->setIdproducto($a->getidpro());
-						$Venta_producto->insertar();
-						/*$Detalle-> setCantidad($_POST[$i."p"]);
-						$Detalle-> setProducto($a->getId());
-						$Detalle->insertar();*/
-				}
-			}
-			header('Location:generarfactura.php');
-			}
-			else {
-				$error=1;
-			}
-			$Producto = new Producto();
-			$regi=$Producto -> consultarTodos();
-
-		}
-	?>
+	
 	<div class="container">
 		<form method="post" action="#">
 		<div class="row">
