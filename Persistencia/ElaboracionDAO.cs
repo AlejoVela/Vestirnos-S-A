@@ -28,24 +28,23 @@ namespace Vestinos_S.A.Persistencia
 
         public string buscar(string filtro)
         {
-            return "select * from `cargo` where idexistencia like '" + filtro + "%' limit 5";
+            return "select * from `Elaboracion` where idexistencia like '" + filtro + "%' limit 5";
         }
 
         public string consultar()
         {
-            return "SELECT * FROM `cargo` where idelaboracion = '" + idelaboracion + "'";
+            return "SELECT * FROM `Elaboracion` where idelaboracion = '" + idelaboracion + "'";
         }
 
         public string consultarTodos()
         {
-            return "select * FROM `cargo` ";
+            return "select * FROM `Elaboracion` ";
         }
 
         public string insertar()
         {
-            return "INSERT INTO `cargo` ( `idexistencia`,`idproducto`,`canmat`) VALUES ('" + idexistencia + "'," + idproducto + "," + canmat + ");";
+            return "INSERT INTO `Elaboracion` ( `idelaboracion` ,`idexistencia`,`idproducto`,`cantmat`) VALUES (" + idelaboracion + "," + idexistencia + "," + idproducto + "," + canmat + ");";
         }
 
-        
     }
 }

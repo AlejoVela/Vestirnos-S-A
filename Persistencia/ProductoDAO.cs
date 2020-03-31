@@ -42,7 +42,7 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Producto` ( `cantprend`,`precio`) VALUES ('" + cantprend + "'," + precio + ");";
+            return "INSERT INTO `Producto` ( `idprend`,`id_t`,`precio`,`cantprenda`) VALUES ("+idprend+","+id_t+","+precio+","+cantprend+");"; 
         }
     }
 }

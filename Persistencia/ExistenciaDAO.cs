@@ -9,16 +9,17 @@ namespace Vestinos_S.A.Persistencia
     {
         private int iduni;
         private int idmat;
-
+        private int cantne;
         public ExistenciaDAO()
         {
 
         }
 
-        public ExistenciaDAO(string iduni = "", string idmat = "")
+        public ExistenciaDAO(string iduni = "", string idmat = "", string cantne = "")
         {
             this.iduni = int.Parse(iduni);
-            this.idmat = int.Parse(idmat); 
+            this.idmat = int.Parse(idmat);
+            this.cantne = int.Parse(cantne);
         }
 
         public string buscar(string filtro)
@@ -33,12 +34,15 @@ namespace Vestinos_S.A.Persistencia
 
         public string consultarTodos()
         {
-            return "select * FROM `Existencia` ";
+            return "select existencia.id_ex,existencia.iduni,existencia.idmat,unimedida.unidad,matprima.nommat,existencia.cantexist,existencia.cantnece"+
+                " FROM `existencia`"+
+                " INNER join unimedida on unimedida.iduni = existencia.iduni"+
+                " INNER join matprima on matprima.idmat = existencia.idmat ";
         }
 
         public string insertar()
         {
-            return "INSERT INTO `Existencia` ( `idmat`,) VALUES ('" + idmat + ");";
+            return "INSERT INTO `Existencia` (`iduni`, `idmat`, `cantexist`, `cantnece`) VALUES ("+iduni+","+idmat+",0,"+cantne+");";
         }
     }
 }

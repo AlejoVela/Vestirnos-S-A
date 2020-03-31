@@ -11,6 +11,7 @@ namespace Vestinos_S.A.Persistencia
         private string nom1;
         private string ape1;
 
+
         public ClienteDAO()
         {
 
@@ -25,22 +26,31 @@ namespace Vestinos_S.A.Persistencia
 
         public string buscar(string filtro)
         {
-            return "select * from `cargo` where nombre like '" + filtro + "%' limit 5";
+            return "select * from `cliente` where nombre like '" + filtro + "%' limit 5";
         }
 
         public string consultar()
         {
-            return "SELECT * FROM `cargo` where cc = '" + cc + "'";
+            return "SELECT * FROM `cliente` where cc = '" + cc + "'";
         }
 
         public string consultarTodos()
         {
-            return "select * FROM `cargo` ";
+            return "select * FROM `cliente` ";
         }
 
         public string insertar()
         {
-            return "INSERT INTO `cargo` ( `nombre`,`apellido`) VALUES ('" + nom1 + "'," + ape1 + ");";
+            return "INSERT INTO `cliente` ( `cc`,`nombre`,`ape`) VALUES (" + cc + ",'" + nom1 + "','" + ape1 + "');";
         }
+
+        public string Actualizar()
+        {
+            return "UPDATE `cliente` SET "+
+                   "`nombre`= '"+nom1+"',"+
+               "`ape`= '"+ape1+"' "+
+                    "where `cc` = '" + cc + "'";
+        }
+
     }
 }

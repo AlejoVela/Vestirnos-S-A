@@ -9,17 +9,17 @@ namespace Vestinos_S.A.Persistencia
     {
         private int idproducto;
         private int idventa;
-
+        private int cantcompra;
         public Venta_productoDAO()
         {
 
         }
 
-        public Venta_productoDAO(string idproducto = "", string idventa = "")
+        public Venta_productoDAO(string idproducto = "", string idventa = "", string cantcompra = "")
         {
             this.idproducto = int.Parse(idproducto);
             this.idventa = int.Parse(idventa);
-
+            this.cantcompra = int.Parse(cantcompra);
         }
 
         public string buscar(string filtro)
@@ -39,7 +39,28 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Venta_producto` ( `idventa`) VALUES ('" + idventa + ");";
+            return "INSERT INTO `Venta_producto` (`idproducto`, `idventa`, `cantcompra`) VALUES ("+idproducto+","+idventa+","+cantcompra+");";
         }
+
+        public string consultar_factura()
+        {
+            return "SELECT talla.talla,prenda.nomprend,venta_producto.cantcompra,producto.precio "+
+                    "FROM `venta_producto` "+
+                "INNER JOIN producto on producto.idpro = venta_producto.idproducto "+
+                    "INNER JOIN talla on talla.id_t = producto.id_t "+
+                    "INNER JOIN prenda on producto.idprend = prenda.idprend "+
+                    "where `idventa`= "+idventa+"; ";
+        }
+
+        public void setcantcompra(int cantcompra)
+        {
+        this.cantcompra = cantcompra;
+        }
+
+        public void setIdproducto(int idproducto)
+        {
+        this.idproducto = idproducto;
+        }
+
     }
 }

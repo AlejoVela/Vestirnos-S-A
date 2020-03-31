@@ -43,7 +43,7 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Proveedor` ( `nombre`,`razon`,`fprecindir`,`estadoprove`) VALUES ('" + nombre + "'," + razon + "," + fprecindir + "," + estadoprove + ");";
+            return "INSERT INTO `Proveedor` ( `nit`, `nombre`,`razon`,`fprecindir`,`estadoprove`) VALUES (" + nit + ",'" + nombre + "'," + razon + "," + fprecindir + "," + estadoprove + ");";
         }
     }
 }

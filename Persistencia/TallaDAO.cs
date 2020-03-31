@@ -39,7 +39,7 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Talla` ( `talla`,`) VALUES ('" + talla + "');";
+            return "INSERT INTO `Talla` ( `talla` ) VALUES ('" + talla + "');";
         }
     }
 }

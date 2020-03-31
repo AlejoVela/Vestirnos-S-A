@@ -55,7 +55,25 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Empleado` ( `nomEmpleado`,`salario`) VALUES ('" + nem1 + "'," + telefono_emp + "," + apem1 + "," + direcemple + "," + estado + "," + passe + "," + emaile + ");";
+            return "INSERT INTO `Empleado` ("+ccemple+","+iddepa+","+idcar+",'"+nem1+"', "+telefono_emp+", '"+apem1+"','"+direcemple+"',"+estado+",'"+passe+"','"+emaile+"');";
+        }
+        public string Actualizar()
+        {
+            return "UPDATE `empleado` " +
+                "SET `idcar`=" + idcar + "," +
+                    "`iddepar`=" + iddepa + "," +
+                    "`nem`='" + nem1 + "'," +
+                    "`apem`='" + apem1 + "'," +
+                    "`tel`= " + telefono_emp + "," +
+                    "`direcemple`='" + direcemple + "'" +
+                    "where `ccemple` ='" + ccemple + "'";
+        }
+        public string autenticar()
+        {
+            return "select empleado.ccemple, empleado.estado , cargo.nomcargo " +
+                        "from `empleado` " +
+                    "INNER JOIN cargo on cargo.idcar = empleado.idcar " +
+                        "where empleado.emaile = '" + emaile + "' and empleado.passe = '" + passe + "'";
         }
     }
 }

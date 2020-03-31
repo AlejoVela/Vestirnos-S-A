@@ -43,7 +43,14 @@ namespace Vestinos_S.A.Persistencia
 
         public string insertar()
         {
-            return "INSERT INTO `Venta` ( `cc`,`ccemple`,`fechventa`,) VALUES ('" + cc + "," + ccemple + "," + fechventa + ");";
+            return "INSERT INTO `Venta` ( `cc`,`ccemple`,`fechventa`,) VALUES (" + cc + "," + ccemple + "," + DateTime.Now + ");";
         }
+        public string ultimo()
+        {
+            return "SELECT venta.iddventa,venta.ccliente,venta.ccemple,venta.fechaventa "+
+                    "FROM venta "+
+                    "WHERE iddventa = (SELECT max(venta.iddventa)from venta)";
+        }
+
     }
 }
