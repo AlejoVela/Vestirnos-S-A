@@ -29,18 +29,6 @@
 
 <div class="container">
 
-    <?php
-	if(isset($_GET['pid'])){
-	    include base64_decode($_GET['pid']);
-	}else{
-	    if(isset($_GET['salir'])){
-	        $_SESSION['id']=null;
-	        $_SESSION['rol']=null;
-	    }
-	    include 'presentacion/encabezado.php';
-	    include 'presentacion/inicio.php';
-	}
-	?>
 
 	<div class="row">
 		<div class="col-2">

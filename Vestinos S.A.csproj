@@ -246,11 +246,11 @@
     <Compile Include="logica\Producto.cs" />
     <Compile Include="logica\Proveedor.cs" />
     <Compile Include="logica\Reportes.cs" />
-    <Compile Include="logica\Talla.cs" />
-    <Compile Include="logica\Telefono_pro.cs" />
+    <Compile Include="logica\talla.cs" />
+    <Compile Include="logica\telefono_pro.cs" />
     <Compile Include="logica\Unimedida.cs" />
-    <Compile Include="logica\Venta.cs" />
-    <Compile Include="logica\Venta_producto.cs" />
+    <Compile Include="logica\Ventas.cs" />
+    <Compile Include="logica\venta_productos.cs" />
     <Compile Include="Persistencia\CargoDAO.cs" />
     <Compile Include="Persistencia\ClienteDAO.cs" />
     <Compile Include="Persistencia\Conexion.cs" />

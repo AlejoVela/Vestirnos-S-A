@@ -34,7 +34,7 @@ namespace Vestinos_S.A.Persistencia
     }
 
 
-    public string stringconsultarTodos(){
+    public string consultarTodos(){
         return "SELECT * from hirico_produc";
     }
 

@@ -13,7 +13,8 @@
 							<div class="card ">
 								<div class="card-header bg-primary text-white">Autenticacion</div>
 								<div class="card-body">
-									<?php if ($error == 1) { ?>
+									<!--
+										<?php if ($error == 1) { ?>
 									<div class="alert alert-danger alert-dismissible fade show"
 										role="alert">
 										Error de correo o clave
@@ -22,27 +23,19 @@
 											<span aria-hidden="true">&times;</span>
 										</button>
 									</div>
-									<?php } else if ($error == 2) { ?>
-									<div class="alert alert-danger alert-dismissible fade show"
-										role="alert">
-										Usuario inhabilitado
-										<button type="button" class="close" data-dismiss="alert"
-											aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<?php } ?>
-									<form method="post" action="index.php">
+									<?php }?>
+										-->
+									<!-- <form method="post" action="index.php"> -->
 										<div class="form-group">
-											<label>Correo</label> <input name="correo" type="email"
-												class="form-control" placeholder="Digite Correo" required="required">
+											<label>Correo</label> 
+											<input  id="correo" name="correo" type="email" runat="server" class="form-control" placeholder="Digite Correo" required="required">
 										</div>
 										<div class="form-group">
-											<label>Clave</label> <input name="clave" type="password"
-												class="form-control" placeholder="Clave" required="required">
+											<label>Clave</label> 
+											<input id="pass" name="clave" runat="server" type="password" class="form-control" placeholder="Clave" required="required">
 										</div>
-										<button type="submit" name="autenticar" class="btn btn-primary">Autenticar</button>
-									</form>
+										<asp:button runat="server" type="submit" name="autenticar" class="btn btn-primary" Text="Autentificar" OnClick="Unnamed1_Click"></asp:button>
+									<!-- </form> -->
 								</div>
 							</div>
 						</div>

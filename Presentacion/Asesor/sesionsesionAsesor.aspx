@@ -4,13 +4,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <!-- aqui comienza el codigo del proyecto aun con el php incluido-->
-    <?php
-        include 'Presentacion\Asesor\menuAcesor.php';
-        $Empleado = new Empleado($_SESSION['id']);
-        $Empleado -> consultar();
-    ?>
 
-    <h1>Bienvenido Asesor(a) de Ventas  <?php echo $Empleado->getNem1(); ?></h1>
+
+    <h1>Bienvenido Asesor(a) de Ventas  <%  Response.Write(Session["nombresEmpleado"]);%></h1>
     <!-- aqui termina -->
 
 

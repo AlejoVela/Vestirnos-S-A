@@ -5,17 +5,17 @@ using System.Web;
 
 namespace Vestinos_S.A.Persistencia
 {
-    public class CLADepartamentoDAO
+    public class DepartamentoDAO
     {
         private int iddepa;
         private string nomdepa;
 
-        public CLADepartamentoDAO()
+        public DepartamentoDAO()
         {
 
         }
 
-        public CLADepartamentoDAO(string iddepa = "", string nomdepa = "")
+        public DepartamentoDAO(string iddepa = "", string nomdepa = "")
         {
             this.iddepa = int.Parse(iddepa);
             this.nomdepa = nomdepa;

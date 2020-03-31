@@ -15,10 +15,10 @@ namespace Vestinos_S.A.Persistencia
 
         }
 
-        public MatprimaDAO(string idmat = "", string nommat = "")
+        public MatprimaDAO(string id = "", string mat = "")
         {
-            this.idmat=int.Parse(idmat);
-            this.nommat = nommat;
+            this.idmat = int.Parse(id);
+            this.nommat = mat;
       
         }
 
