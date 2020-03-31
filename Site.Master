@@ -27,7 +27,9 @@
 
 <div class="container">
 
-    <%  %>
+    <%  
+        Session["URL"] = "/Presentacion/";
+    %>
 
 	<div class="row">
 		<div class="col-2">

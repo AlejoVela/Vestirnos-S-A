@@ -25,7 +25,7 @@
 <!-- aqui comienza el codigo del proyecto aun con el php incluido-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="~/Presentacion/Asesor/sesionsesionAsesor.aspx"><i class="fas fa-home"></i></a>
+      <a class="navbar-brand" href=<% Response.Write(Session["URL"] + "/Asesor/sesionsesionAsesor.aspx");%>><i class="fas fa-home"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,8 +36,8 @@
               Generar Factura
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="~/Presentacion/Asesor/Factura.aspx>">Facturacion</a>
-              <a class="dropdown-item" href="~/Presentacion/Asesor/Precios.aspx">Verificar Precios</a>
+              <a class="dropdown-item" href=<% Response.Write(Session["URL"]+"/Asesor/Factura.aspx>");%>>Facturacion</a>
+              <a class="dropdown-item" href=<% Response.Write(Session["URL"]+"/Asesor/Factura.aspx>");%>>Verificar Precios</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -45,13 +45,13 @@
               Clientes
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="~/Presentacion/Asesor/ingresarCliente.aspx">Ingresara Clientes Nuevos</a>
-                <a class="dropdown-item" href="~/Presentacion/Asesor/VerClientes.aspx">Verificar Clientes</a>
+              <a class="dropdown-item" href=<% Response.Write(Session["URL"] + "/Asesor/ingresarCliente.aspx");%>>Ingresara Clientes Nuevos</a>
+                <a class="dropdown-item" href=<% Response.Write(Session["URL"] + "/Asesor/VerClientes.aspx");%>>Verificar Clientes</a>
             </div>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="~/" tabindex="-1" >Salida</a>
+            <a class="nav-link" href="<% Response.Write(Session["URL"]);%> + Inicio.aspx" >Salida</a>
           </li>
         </ul>
       </div>

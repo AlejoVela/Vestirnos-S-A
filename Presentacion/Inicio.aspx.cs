@@ -40,7 +40,7 @@ namespace Vestinos_S.A.Presentacion
                     switch (empleado.idcar)
                     {
                         case 1001:
-                            Response.Redirect("~/Presentacion/Asesor/sesionsesionAsesor.aspx");
+                            Response.Redirect(Session["URL"]+"/Asesor/sesionsesionAsesor.aspx");
                             break;
                         case 3001:
                             Response.Redirect("~/Presentacion/Admin/sesionsesionAdmin.aspx");
