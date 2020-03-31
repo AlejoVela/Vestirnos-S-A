@@ -247,7 +247,6 @@
     <Compile Include="logica\Proveedor.cs" />
     <Compile Include="logica\Reportes.cs" />
     <Compile Include="logica\talla.cs" />
-    <Compile Include="logica\telefono_pro.cs" />
     <Compile Include="logica\Unimedida.cs" />
     <Compile Include="logica\Ventas.cs" />
     <Compile Include="logica\venta_productos.cs" />
@@ -265,7 +264,6 @@
     <Compile Include="Persistencia\ProveedorDAO.cs" />
     <Compile Include="Persistencia\ReportesDAO.cs" />
     <Compile Include="Persistencia\TallaDAO.cs" />
-    <Compile Include="Persistencia\Telefono_proDAO.cs" />
     <Compile Include="Persistencia\UnimedidaDAO.cs" />
     <Compile Include="Persistencia\Venta_productoDAO.cs" />
     <Compile Include="Persistencia\VentoDAO.cs" />

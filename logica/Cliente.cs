@@ -57,5 +57,11 @@ namespace Vestinos_S.A.logica
             this.conexion.cerrar();
             return clientes;
         }
+
+        public void actualizar()
+        {
+            this.conexion.ejecutar(this.ClienteDAO.Actualizar());
+            this.conexion.cerrar();
+        }
     }
 }
