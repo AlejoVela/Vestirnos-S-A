@@ -13,9 +13,9 @@ namespace Vestinos_S.A.logica
         private Conexion conexion;
         public List<Cliente> clientes;
         private ClienteDAO ClienteDAO;
-        private int cc { get; set; }
-        private string nom1 { get; set; }
-        private string ape1 { get; set; }
+        public int cc { get; set; }
+        public string nom1 { get; set; }
+        public string ape1 { get; set; }
         public List<Cliente> Clientes { get => clientes; set => clientes = value; }
 
         public Cliente()
@@ -51,7 +51,6 @@ namespace Vestinos_S.A.logica
             {
                 c = new Cliente("" + conexion.resultado.GetInt32(0), conexion.resultado.GetString(1), conexion.resultado.GetString(2));
                 clientes.Add(c);
-                MessageBox.Show("nom:\n" + conexion.resultado.GetString(1) + "\n");
                 i++;
             }
 

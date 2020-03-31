@@ -12,6 +12,7 @@
 				<div class="card">
 					<div class="card-header bg-info text-white">Factura</div>
 					<div class="card-body">
+						<!--
 						<?php if (isset($_POST['Registrar'])) { ?>
 						<div class="alert alert-<?php echo ($error==0) ? "success" : "danger" ?> alert-dismissible fade show"
 							role="alert">
@@ -21,20 +22,12 @@
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
-						<?php } ?>
+						<?php } ?> -->
 						<div class="form-group">
 							<div class="form-group">
 								<label>Clientes</label>
-					<select name="clientes" type="text"
-  									class="form-control" >
-					  <?php
-										$Cliente = new Cliente();
-					  $resultado=$Cliente-> consultarTodos();
-					  foreach ($resultado as $a) {
-											?><option value="<?php echo $a->getCc();?>"><?php echo  $a->getCc()."-".$a->getNom1();?></option><?php
-					  }
-
-					  ?>
+					<select name="clientes" type="text" class="form-control" >
+					  <% generarClientes(); %>
 					</select>
 							</div>
 						</div>
@@ -49,27 +42,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php
-								$Producto = new Producto();
-								$regi=$Producto -> consultarTodos();
-								$i=0;
-								foreach ($regi as $a){
-									$i++;
-
-									echo "<tr>";
-									echo "<td>" . $a -> getidprend() . "</td>";
-									echo "<td>" . $a -> getid_t() . "</td>";
-									echo "<td>" . $a -> getprecio() . "</td>";
-									echo "<td>" . $a -> getcantprend() . "</td>";
-										?>
-										 <td>
-											 <input type="number" id="" name="<?php echo $i."p"; ?>" value="0"
-	        	 						min="0" max="<?php echo $a -> getprecio()-3; ?>">
-											</td>
-										<?php
-									echo "</tr>";
-								}
-								?>
+								<% listaProductos(); %>
 							</tbody>
 						</table>
 						<button name="Registrar" class="btn btn-primary">Registrar</button>

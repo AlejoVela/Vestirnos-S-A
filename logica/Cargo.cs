@@ -53,7 +53,6 @@ namespace Vestinos_S.A.logica
             {
                 c = new Cargo("" + conexion.resultado.GetInt32(0), conexion.resultado.GetString(1), conexion.resultado.GetString(2));
                 registros.Add(c);
-                MessageBox.Show("nom:\n" + conexion.resultado.GetString(1) + "\n");
                 i++;
             }
 

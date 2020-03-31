@@ -13,10 +13,10 @@ namespace Vestinos_S.A.logica
         private Conexion conexion;
         public List<Producto> productos;
         private ProductoDAO productoDAO;
-        private int idprend { get; set; }
-        private int id_t { get; set; }
-        private string cantprend { get; set; }
-        private double precio { get; set; }
+        public int idprend { get; set; }
+        public int id_t { get; set; }
+        public string cantprend { get; set; }
+        public double precio { get; set; }
         public List <Producto> Productos { get => productos; set => productos = value; }
 
         public Producto()
@@ -51,9 +51,8 @@ namespace Vestinos_S.A.logica
             Producto p;
             while (conexion.resultado.Read())
             {
-                p = new Producto("" + conexion.resultado.GetInt32(0), conexion.resultado.GetString(1), conexion.resultado.GetString(2));
+                p = new Producto("" + conexion.resultado.GetInt32(1), "" + conexion.resultado.GetInt32(4), "" + conexion.resultado.GetInt32(3), "" + conexion.resultado.GetInt32(2));
                 productos.Add(p);
-                MessageBox.Show("nom:\n" + conexion.resultado.GetString(1) + "\n");
                 i++;
             }
 

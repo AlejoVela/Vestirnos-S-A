@@ -28,7 +28,7 @@ namespace Vestinos_S.A.Presentacion
             Empleado c = new Empleado();
             foreach (Empleado empleado in c.consultarTodos())
             {
-                MessageBox.Show("email: " + empleado.emaile + " PASS: "+ empleado.passe);
+
                 if (corr.Equals(empleado.emaile) && passw.Equals(empleado.passe))
                 {
                     Session["nombresEmpleado"] = empleado.nem1;
