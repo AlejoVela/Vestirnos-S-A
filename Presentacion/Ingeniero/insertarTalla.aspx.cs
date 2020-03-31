@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Vestinos_S.A
+namespace Vestinos_S.A.Presentacion.Ingeniero
 {
-    public partial class Contact : Page
+    public partial class insertarTalla : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

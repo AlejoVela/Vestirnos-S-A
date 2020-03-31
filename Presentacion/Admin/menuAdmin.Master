@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menuAdmin.master.cs" Inherits="Vestinos_S.A.Presentacion.Admin.menuAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asesor</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+    <!-- aqui comienza el codigo del proyecto aun con el php incluido-->
+    <?php
+        $Empleado = new Empleado($_SESSION['id']);
+        $Empleado -> consultar();
+    ?>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.php?pid=<?php echo base64_encode("Presentacion/Admin/sesionsesionAdmin.php")?>"><i class="fas fa-home"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Empleados
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("Presentacion/Admin/ConEmpleado.php")?>">Consulta Empleados</a>
+              <a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("Presentacion/Admin/ingresarEmpleado.php")?>">Ingreso Empleados</a>
+              <a class="nav-link" href="index.php?pid=<?php echo base64_encode("Presentacion/Admin/ingresarDetartamento.php")?>">Ingresar Departamentos</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Generar Reporte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/Admin/ReProductos.php")?>">Productos </a>
+                <a class="dropdown-item" href="index.php?pid=<?php echo base64_encode("presentacion/Admin/ReMaterias_primas.php")?>">Materias Primas </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?salir=1" tabindex="-1" >Salida</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- aqui termina -->
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

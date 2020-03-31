@@ -139,14 +139,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -158,11 +155,44 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Presentacion\Admin\AcEmpleado.aspx" />
+    <Content Include="Presentacion\Admin\ConEmpleado.aspx" />
+    <Content Include="Presentacion\Admin\ingresarDetartamento.aspx" />
+    <Content Include="Presentacion\Admin\ingresarEmpleado.aspx" />
+    <Content Include="Presentacion\Admin\ReMaterias_primas.aspx" />
+    <Content Include="Presentacion\Admin\ReProductos.aspx" />
+    <Content Include="Presentacion\Admin\sesionsesionAdmin.aspx" />
+    <Content Include="Presentacion\Asesor\AcCliente.aspx" />
+    <Content Include="Presentacion\Asesor\Factura.aspx" />
+    <Content Include="Presentacion\Asesor\ingresarCliente.aspx" />
+    <Content Include="Presentacion\Asesor\menuAsesor.Master" />
+    <Content Include="Presentacion\Admin\menuAdmin.Master" />
+    <Content Include="Presentacion\Ingeniero\AcPedido.aspx" />
+    <Content Include="Presentacion\Ingeniero\AcPreovedor.aspx" />
+    <Content Include="Presentacion\Ingeniero\AcProductos.aspx" />
+    <Content Include="Presentacion\Ingeniero\ConPedidos.aspx" />
+    <Content Include="Presentacion\Ingeniero\ConProductos.aspx" />
+    <Content Include="Presentacion\Ingeniero\ConProveedor.aspx" />
+    <Content Include="Presentacion\Ingeniero\ElPreovedor.aspx" />
+    <Content Include="Presentacion\Ingeniero\insertarPrenda.aspx" />
+    <Content Include="Presentacion\Ingeniero\insertarProductos.aspx" />
+    <Content Include="Presentacion\Ingeniero\insertarTalla.aspx" />
+    <Content Include="Presentacion\Ingeniero\menuIng.aspx" />
+    <Content Include="Presentacion\Ingeniero\RegistroCantidades.aspx" />
+    <Content Include="Presentacion\Ingeniero\RegistroMaterial.aspx" />
+    <Content Include="Presentacion\Ingeniero\RegistroPedido.aspx" />
+    <Content Include="Presentacion\Ingeniero\RegistroPreovedor.aspx" />
+    <Content Include="Presentacion\Ingeniero\RegistroTipoMaterial.aspx" />
+    <Content Include="Presentacion\Ingeniero\sesionsesionIng.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="img\icono1.jpg" />
     <Content Include="img\iti.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\red.png" />
+    <Content Include="Presentacion\Asesor\Precios.aspx" />
+    <Content Include="Presentacion\Asesor\sesionsesionAsesor.aspx" />
+    <Content Include="Presentacion\Asesor\VerClientes.aspx" />
+    <Content Include="Presentacion\Ingeniero\validacionIng.aspx" />
     <Content Include="Presentacion\Inicio.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -200,28 +230,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -260,6 +269,237 @@
     <Compile Include="Persistencia\UnimedidaDAO.cs" />
     <Compile Include="Persistencia\Venta_productoDAO.cs" />
     <Compile Include="Persistencia\VentoDAO.cs" />
+    <Compile Include="Presentacion\Admin\AcEmpleado.aspx.cs">
+      <DependentUpon>AcEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\AcEmpleado.aspx.designer.cs">
+      <DependentUpon>AcEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ConEmpleado.aspx.cs">
+      <DependentUpon>ConEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ConEmpleado.aspx.designer.cs">
+      <DependentUpon>ConEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ingresarDetartamento.aspx.cs">
+      <DependentUpon>ingresarDetartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ingresarDetartamento.aspx.designer.cs">
+      <DependentUpon>ingresarDetartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ingresarEmpleado.aspx.cs">
+      <DependentUpon>ingresarEmpleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ingresarEmpleado.aspx.designer.cs">
+      <DependentUpon>ingresarEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\menuAdmin.Master.cs">
+      <DependentUpon>menuAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\menuAdmin.Master.designer.cs">
+      <DependentUpon>menuAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ReMaterias_primas.aspx.cs">
+      <DependentUpon>ReMaterias_primas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ReMaterias_primas.aspx.designer.cs">
+      <DependentUpon>ReMaterias_primas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ReProductos.aspx.cs">
+      <DependentUpon>ReProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\ReProductos.aspx.designer.cs">
+      <DependentUpon>ReProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Admin\sesionsesionAdmin.aspx.cs">
+      <DependentUpon>sesionsesionAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Admin\sesionsesionAdmin.aspx.designer.cs">
+      <DependentUpon>sesionsesionAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\AcCliente.aspx.cs">
+      <DependentUpon>AcCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\AcCliente.aspx.designer.cs">
+      <DependentUpon>AcCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\Factura.aspx.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\Factura.aspx.designer.cs">
+      <DependentUpon>Factura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\ingresarCliente.aspx.cs">
+      <DependentUpon>ingresarCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\ingresarCliente.aspx.designer.cs">
+      <DependentUpon>ingresarCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\menuAsesor.Master.cs">
+      <DependentUpon>menuAsesor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\menuAsesor.Master.designer.cs">
+      <DependentUpon>menuAsesor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\Precios.aspx.cs">
+      <DependentUpon>Precios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\Precios.aspx.designer.cs">
+      <DependentUpon>Precios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\sesionsesionAsesor.aspx.cs">
+      <DependentUpon>sesionsesionAsesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\sesionsesionAsesor.aspx.designer.cs">
+      <DependentUpon>sesionsesionAsesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\VerClientes.aspx.cs">
+      <DependentUpon>VerClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Asesor\VerClientes.aspx.designer.cs">
+      <DependentUpon>VerClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcPedido.aspx.cs">
+      <DependentUpon>AcPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcPedido.aspx.designer.cs">
+      <DependentUpon>AcPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcPreovedor.aspx.cs">
+      <DependentUpon>AcPreovedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcPreovedor.aspx.designer.cs">
+      <DependentUpon>AcPreovedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcProductos.aspx.cs">
+      <DependentUpon>AcProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\AcProductos.aspx.designer.cs">
+      <DependentUpon>AcProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConPedidos.aspx.cs">
+      <DependentUpon>ConPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConPedidos.aspx.designer.cs">
+      <DependentUpon>ConPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConProductos.aspx.cs">
+      <DependentUpon>ConProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConProductos.aspx.designer.cs">
+      <DependentUpon>ConProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConProveedor.aspx.cs">
+      <DependentUpon>ConProveedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ConProveedor.aspx.designer.cs">
+      <DependentUpon>ConProveedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ElPreovedor.aspx.cs">
+      <DependentUpon>ElPreovedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\ElPreovedor.aspx.designer.cs">
+      <DependentUpon>ElPreovedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarPrenda.aspx.cs">
+      <DependentUpon>insertarPrenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarPrenda.aspx.designer.cs">
+      <DependentUpon>insertarPrenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarProductos.aspx.cs">
+      <DependentUpon>insertarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarProductos.aspx.designer.cs">
+      <DependentUpon>insertarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarTalla.aspx.cs">
+      <DependentUpon>insertarTalla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\insertarTalla.aspx.designer.cs">
+      <DependentUpon>insertarTalla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\menuIng.aspx.cs">
+      <DependentUpon>menuIng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\menuIng.aspx.designer.cs">
+      <DependentUpon>menuIng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroCantidades.aspx.cs">
+      <DependentUpon>RegistroCantidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroCantidades.aspx.designer.cs">
+      <DependentUpon>RegistroCantidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroMaterial.aspx.cs">
+      <DependentUpon>RegistroMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroMaterial.aspx.designer.cs">
+      <DependentUpon>RegistroMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroPedido.aspx.cs">
+      <DependentUpon>RegistroPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroPedido.aspx.designer.cs">
+      <DependentUpon>RegistroPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroPreovedor.aspx.cs">
+      <DependentUpon>RegistroPreovedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroPreovedor.aspx.designer.cs">
+      <DependentUpon>RegistroPreovedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroTipoMaterial.aspx.cs">
+      <DependentUpon>RegistroTipoMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\RegistroTipoMaterial.aspx.designer.cs">
+      <DependentUpon>RegistroTipoMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\sesionsesionIng.Master.cs">
+      <DependentUpon>sesionsesionIng.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\sesionsesionIng.Master.designer.cs">
+      <DependentUpon>sesionsesionIng.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\validacionIng.aspx.cs">
+      <DependentUpon>validacionIng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ingeniero\validacionIng.aspx.designer.cs">
+      <DependentUpon>validacionIng.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -290,9 +530,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
